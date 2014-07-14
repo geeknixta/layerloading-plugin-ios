@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D9205AAC16A5CEB300609C25 /* AGSLayer+LayerLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = D9205AAB16A5CEB300609C25 /* AGSLayer+LayerLoading.m */; };
+		D977B28C1971B189004E179E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D977B28A1971B189004E179E /* icon.png */; };
+		D977B28D1971B189004E179E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D977B28B1971B189004E179E /* icon@2x.png */; };
 		D99936EC169F4C3A0030586D /* AGSMapView+LayerLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = D99936EB169F4C3A0030586D /* AGSMapView+LayerLoading.m */; };
 		D99936F1169F5BFD0030586D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D99936F0169F5BFD0030586D /* libc++.dylib */; };
 		D99936F3169F5C210030586D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99936F2169F5C210030586D /* OpenGLES.framework */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		D9205AAA16A5CEB300609C25 /* AGSLayer+LayerLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "AGSLayer+LayerLoading.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		D9205AAB16A5CEB300609C25 /* AGSLayer+LayerLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "AGSLayer+LayerLoading.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D977B28A1971B189004E179E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D977B28B1971B189004E179E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D99936EA169F4C3A0030586D /* AGSMapView+LayerLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGSMapView+LayerLoading.h"; sourceTree = "<group>"; };
 		D99936EB169F4C3A0030586D /* AGSMapView+LayerLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "AGSMapView+LayerLoading.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		D99936F0169F5BFD0030586D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
@@ -96,6 +100,8 @@
 		D9205AAD16A5DBD500609C25 /* Sample App */ = {
 			isa = PBXGroup;
 			children = (
+				D977B28A1971B189004E179E /* icon.png */,
+				D977B28B1971B189004E179E /* icon@2x.png */,
 				E169808916387B6C00A1F2E5 /* SampleAppDelegate.h */,
 				E169808A16387B6C00A1F2E5 /* SampleAppDelegate.m */,
 				E169809216387B6C00A1F2E5 /* MainStoryboard_iPhone.storyboard */,
@@ -245,9 +251,11 @@
 				E169808D16387B6C00A1F2E5 /* Default.png in Resources */,
 				E169808F16387B6C00A1F2E5 /* Default@2x.png in Resources */,
 				E169809116387B6C00A1F2E5 /* Default-568h@2x.png in Resources */,
+				D977B28C1971B189004E179E /* icon.png in Resources */,
 				E169809416387B6C00A1F2E5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E169809716387B6C00A1F2E5 /* MainStoryboard_iPad.storyboard in Resources */,
 				E16980B316387C5500A1F2E5 /* ArcGIS.bundle in Resources */,
+				D977B28D1971B189004E179E /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
